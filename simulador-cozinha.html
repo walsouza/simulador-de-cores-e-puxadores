@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Simulador de Cores e Puxadores Cozinha</title>
+		<meta name="description" content="Confira as cores e puxadores disponíveis para nossos Móveis Planejados.">
+
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" content="Simulador de Cores e Puxadores Cozinha"/>
+		<meta property="og:description" content="Confira as cores e puxadores disponíveis para nossos Móveis Planejados."/>
+		<meta property="og:url" content="https://www.madeirol.com.br/acabamentos/"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsivo.css">
+      <link rel="shortcut icon" href="img/favicon.ico.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!-- JavaScript -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+	</head>
+	<body>
+
+      <section class="introducao introcoz">
+        <header class="header"></header>
+      </section>
+      <div class="simucoz">
+        <section class="container conteudo">
+          <div class="texto">
+            <h4>Simulador de cores e puxadores</h4>
+            <h2>Simule <font style="font-weight: 300">cores e puxadores</font> do seu <font style="font-weight: 300">móvel planejado</font> clicando nos botões abaixo.</h2>
+          </div>
+          <div class="menuamb">
+            <div class="divmenu hvr-bounce-to-right">
+              <a href="index.html" class="btnmenu hvr-icon-fade">
+                <img src="img/ico-quarto.png"> Quarto <div class="quadrado-check"><i class="fa fa-check hvr-icon"></i></div>
+              </a>
+            </div> 
+            <div class="divmenu ativomenu hvr-bounce-to-right">
+              <a href="simulador-cozinha.html" class="btnmenu hvr-icon-fade">
+                <img src="img/ico-coz.png"> Cozinha <div class="quadrado-check"><i class="fa fa-check hvr-icon ativochek"></i></div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--Cozinha-->
+      <div class="container conteudo conteudomob ambiente">
+        <!--Cor Superior-->
+        <div class="selectbox selectboxcoz">
+          <div class="cont">
+            <img src="img/imgselect.png" class="selectimg"><h3>Cor - Armário Superior</h3>
+          </div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor1supcor" onclick="img01supcor();" checked><label for="cor1supcor">almond</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor2supcor" onclick="img02supcor();"><label for="cor2supcor">amêndoa</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor3supcor" onclick="img03supcor();"><label for="cor3supcor">betula</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor4supcor" onclick="img04supcor();"><label for="cor4supcor">branco</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor5supcor" onclick="img05supcor();"><label for="cor5supcor">Grey</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor7supcor" onclick="img07supcor();"><label for="cor7supcor">linho</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor8supcor" onclick="img08supcor();"><label for="cor8supcor">maple</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor9supcor" onclick="img09supcor();"><label for="cor9supcor">nero</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor10supcor" onclick="img10supcor();"><label for="cor10supcor">nude</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor11supcor" onclick="img11supcor();"><label for="cor11supcor">rivera</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor13supcor" onclick="img13supcor();"><label for="cor13supcor">trama</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor14supcor" onclick="img14supcor();"><label for="cor14supcor">Dune</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor15supcor" onclick="img15supcor();"><label for="cor15supcor">Haya</label></div>
+          <div class="fixinput"><input type="radio" name="corcoz" id="cor16supcor" onclick="img16supcor();"><label for="cor16supcor">Azul</label></div>
+        </div>
+        <!--Cor Inferior-->
+        <div class="selectbox">
+          <div class="cont">
+            <img src="img/imgselect.png" class="selectimg"><h3>Cor - Armário Inferior</h3>
+          </div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor1inf" onclick="img01bax();" checked><label for="cor1inf">almond</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor2inf" onclick="img02bax();"><label for="cor2inf">amêndoa</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor3inf" onclick="img03bax();"><label for="cor3inf">betula</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor4inf" onclick="img04bax();"><label for="cor4inf">branco</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor5inf" onclick="img05bax();"><label for="cor5inf">Grey</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor7inf" onclick="img07bax();"><label for="cor7inf">linho</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor8inf" onclick="img08bax();"><label for="cor8inf">maple</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor9inf" onclick="img09bax();"><label for="cor9inf">nero</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor10inf" onclick="img10bax();"><label for="cor10inf">nude</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor11inf" onclick="img11bax();"><label for="cor11inf">rivera</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor13inf" onclick="img13bax();"><label for="cor13inf">trama</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor14inf" onclick="img14bax();"><label for="cor14inf">Dune</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor15inf" onclick="img15bax();"><label for="cor15inf">Haya</label></div>
+          <div class="fixinput"><input type="radio" name="corinf" id="cor16inf" onclick="img16bax();"><label for="cor16inf">Azul</label></div>
+        </div>  
+        
+        <div class="personalimg">
+          <img src="img/COZINHAS/bg.jpg" class="personalcoz">
+          <img src="img/COZINHAS/cor_cima_ALMOUND.png" id="trocarimgcoz">
+          <img src="img/COZINHAS/cor_baixo_ALMOUND.png" id="trocarimgbax">
+          <img src="img/COZINHAS/puxador_ARIA.png" id="trocapuxcoz">
+          <img src="img/COZINHAS/porta_vidro_TRANSPARENTE.png" id="trocavidro">
+          <div class="contact-btn">
+            <a href="/fale" class="btnorcamento" target="_blank">Solicitar contato</a>
+          </div>
+        </div>
+        <!--Porta de Vidro-->
+        <div class="selectpux selectvid">
+		
+          <div class="cont">
+            <img src="img/imgselect.png" class="selectimg"><h3>Porta de Vidro</h3>
+          </div>
+          <div class="fixinput fixinputvid"><input type="radio" name="vidro" id="vidro1" onclick="img01vid();" checked><label for="vidro1">Vazio</label></div>
+          <div class="fixinput fixinputvid"><input type="radio" name="vidro" id="vidro2" onclick="img02vid();"><label for="vidro2">Branco</label></div>
+          <div class="fixinput fixinputvid"><input type="radio" name="vidro" id="vidro3" onclick="img03vid();"><label for="vidro3">Reflecta Bronze</label></div>
+          <div class="fixinput fixinputvid"><input type="radio" name="vidro" id="vidro4" onclick="img04vid();"><label for="vidro4">Reflecta Fumê</label></div>
+        </div>
+        <!--Puxador-->
+        <div class="selectpux selectpuxcoz">
+          <div class="cont">
+            <img src="img/imgselect.png" class="selectimg"><h3>Puxador</h3>
+          </div>
+          <div class="fixinput"><input type="radio" name="puxadorcoz" id="puxador1coz" onclick="imgpux01coz();" checked><label for="puxador1coz">Aria</label></div>
+          <div class="fixinput"><input type="radio" name="puxadorcoz" id="puxador2coz" onclick="imgpux02coz();"><label for="puxador2coz">Linea</label></div>
+          <div class="fixinput"><input type="radio" name="puxadorcoz" id="puxador3coz" onclick="imgpux03coz();"><label for="puxador3coz">Mezzo</label></div>
+          <div class="fixinput"><input type="radio" name="puxadorcoz" id="puxador4coz" onclick="imgpux04coz();"><label for="puxador4coz">Planny</label></div>
+          <div class="fixinput"><input type="radio" name="puxadorcoz" id="puxador5coz" onclick="imgpux05coz();"><label for="puxador5coz">Riva</label></div>
+          <div class="fixinput"><input type="radio" name="puxadorcoz" id="puxador6coz" onclick="imgpux06coz();"><label for="puxador6coz">Umbria</label></div>
+          <div class="fixinput"><input type="radio" name="puxadorcoz" id="puxador7coz" onclick="imgpux07coz();"><label for="puxador7coz">Fillo</label></div>
+          <div class="fixinput"><input type="radio" name="puxadorcoz" id="puxador8coz" onclick="imgpux08coz();"><label for="puxador8coz">Flip</label></div>
+          <div class="fixinput"><input type="radio" name="puxadorcoz" id="puxador9coz" onclick="imgpux09coz();"><label for="puxador9coz">Valley</label></div>
+          <div class="fixinput"><input type="radio" name="puxadorcoz" id="puxador10coz" onclick="imgpux10coz();"><label for="puxador10coz">Milano</label></div>
+          <div class="fixinput"><input type="radio" name="puxadorcoz" id="puxador11coz" onclick="imgpux11coz();"><label for="puxador11coz">Provance</label></div>
+          <div class="fixinput"><input type="radio" name="puxadorcoz" id="puxador12coz" onclick="imgpux12coz();"><label for="puxador12coz">Titanium</label></div>
+        </div>
+        <!--Puxador-->
+        <script>
+          function imgpux01coz (){
+            document.getElementById("trocapuxcoz").src="img/COZINHAS/puxador_ARIA.png";
+          }
+          function imgpux02coz (){
+            document.getElementById("trocapuxcoz").src="img/COZINHAS/puxador_LINEA.png";
+          }
+          function imgpux03coz (){
+            document.getElementById("trocapuxcoz").src="img/COZINHAS/puxador_MEZZO.png";
+          }
+          function imgpux04coz (){
+            document.getElementById("trocapuxcoz").src="img/COZINHAS/puxador_PLANNY.png";
+          }
+          function imgpux05coz (){
+            document.getElementById("trocapuxcoz").src="img/COZINHAS/puxador_RIVA.png";
+          }
+          function imgpux06coz (){
+            document.getElementById("trocapuxcoz").src="img/COZINHAS/puxador_UMBRIA.png";
+          }
+          function imgpux07coz (){
+            document.getElementById("trocapuxcoz").src="img/COZINHAS/puxador_FILLO.png";
+          }
+          function imgpux08coz (){
+            document.getElementById("trocapuxcoz").src="img/COZINHAS/puxador_FLIP.png";
+          }
+          function imgpux09coz (){
+            document.getElementById("trocapuxcoz").src="img/COZINHAS/puxador_VALLEY.png";
+          }
+		  function imgpux10coz (){
+            document.getElementById("trocapuxcoz").src="img/COZINHAS/puxador_milano.png";
+          }
+		  function imgpux11coz (){
+            document.getElementById("trocapuxcoz").src="img/COZINHAS/puxador_provance.png";
+          }
+		  function imgpux12coz (){
+            document.getElementById("trocapuxcoz").src="img/COZINHAS/puxador_titanium.png";
+          }
+        </script>
+        <!--Cor Superior-->
+        <script>
+          function img01supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_ALMOUND.png";
+          }
+          function img02supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_amendoa.png";
+          }
+          function img03supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_betula.png";
+          }
+          function img04supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_branco.png";
+          }
+          function img05supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_cinza.png";
+          }
+          function img06supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_gris.png";
+          }
+          function img07supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_linho.png";
+          }
+          function img08supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_maple.png";
+          }
+          function img09supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_nero.png";
+          }
+          function img10supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_nude.png";
+          }
+          function img11supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_rivera.png";
+          }
+          function img12supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_rovere.png";
+          }
+          function img13supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_trama.png";
+          }
+		  function img14supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_dune.png";
+          }
+		  function img15supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cor_cima_haya.png";
+          }
+		  function img16supcor (){
+            document.getElementById("trocarimgcoz").src="img/COZINHAS/cozinha_cima_azul_vel.png";
+          }
+        </script>
+        <!--Cor Inferior-->
+        <script>
+          function img01bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_ALMOUND.png";
+          }
+          function img02bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_amendoa.png";
+          }
+          function img03bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_betula.png";
+          }
+          function img04bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_branco.png";
+          }
+          function img05bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_cinza.png";
+          }
+          function img06bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_gris.png";
+          }
+          function img07bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_linho.png";
+          }
+          function img08bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_maple.png";
+          }
+          function img09bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_nero.png";
+          }
+          function img10bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_nude.png";
+          }
+          function img11bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_rivera.png";
+          }
+          function img12bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_rovere.png";
+          }
+          function img13bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_trama.png";
+          }
+		  function img14bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_dune.png";
+          }
+		  function img15bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cor_baixo_haya.png";
+          }
+		  function img16bax (){
+            document.getElementById("trocarimgbax").src="img/COZINHAS/cozinha_baixo_azul_vel.png";
+          }
+        </script>
+        <!--Porta de Vidro-->
+        <script>
+          function img01vid (){
+            document.getElementById("trocavidro").src="img/COZINHAS/porta_vidro_TRANSPARENTE.png";
+          }
+          function img02vid (){
+            document.getElementById("trocavidro").src="img/COZINHAS/porta_vidro_BRANCO.png";
+          }
+          function img03vid (){
+            document.getElementById("trocavidro").src="img/COZINHAS/porta_vidro_BRONZE.png";
+          }
+          function img04vid (){
+            document.getElementById("trocavidro").src="img/COZINHAS/porta_vidro_REFLECTA.png";
+          }
+        </script>
+        </div>
+      
+      <section class="puxadores zr-pd container-max">
+        <div class="container conteudo">
+          <div class="texto">
+            <h1>Acabamentos de <font style="font-weight: 300">Móveis Planejados</font></h1>
+            <h2>Os melhores acabamentos para seus móveis planejados</h2>
+          </div>
+        </div>
+      </section>
+      <section class="puxadores container-max">
+        <div class="conteudo">
+          <h3>Cores</h3>
+           <div class="imgproj imgproj-cores"> 
+            <img src="img/1-betula.jpg" class="image">
+               <div class="imgproj-text"><span>Betula</span></div>
+            </div>
+            <div class="imgproj imgproj-cores">
+              <img src="img/2-rivera.jpg" class="image">
+              
+               <div class="imgproj-text"><span>Rivera</span></div>
+              
+            </div>
+            <div class="imgproj imgproj-cores">
+            <img src="img/3-nude.jpg" class="image">
+               <div class="imgproj-text"><span>Nude</span></div>
+            </div>
+            <div class="imgproj imgproj-cores">
+            <img src="img/4-nero.jpg" class="image">
+               <div class="imgproj-text"><span>Nero</span></div>
+            </div>
+            <div class="imgproj imgproj-cores">
+            <img src="img/5-maple.jpg" class="image">
+              
+               <div class="imgproj-text"><span>Maple</span>
+              </div>
+            </div>
+            <div class="imgproj imgproj-cores">
+            <img src="img/6-linho.jpg" class="image">
+              
+               <div class="imgproj-text"><span>Linho</span>
+              </div>
+            </div>
+            <div class="imgproj imgproj-cores">
+              <img src="img/7-trama.jpg" class="image">
+
+                 <div class="imgproj-text"><span>Trama</span>
+                </div>
+              </div>
+            <div class="imgproj imgproj-cores">
+              <img src="img/8-grey.jpg" class="image">
+
+                 <div class="imgproj-text"><span>Grey</span>
+                </div>
+              </div>
+            <div class="imgproj imgproj-cores">
+              <img src="img/9-branco.jpg" class="image">
+
+                 <div class="imgproj-text"><span>Branco</span>
+                </div>
+              </div>
+            <div class="imgproj imgproj-cores">
+              <img src="img/10-amendoa.jpg" class="image">
+
+                 <div class="imgproj-text"><span>Amêndoa</span>
+                </div>
+              </div>
+            <!--<div class="imgproj imgproj-cores">
+              <img src="img/11-almond.jpg" class="image">
+
+                 <div class="imgproj-text"><span>Almond</span>
+                </div>
+            </div>-->
+          <div class="imgproj imgproj-cores">
+            <img src="img/12-DUNE.jpg" class="image">
+            <div class="imgproj-text"><span>Dune</span></div>
+          </div>
+          <div class="imgproj imgproj-cores">
+            <img src="img/13-HAYA.jpg" class="image">
+            <div class="imgproj-text"><span>Haya</span></div>
+          </div>
+          <div class="imgproj imgproj-cores">
+            <img src="img/14-azul.jpg" class="image">
+            <div class="imgproj-text"><span>Azul</span></div>
+          </div>
+            
+        </div>
+      </section>
+      <section class="puxadores container-max">
+        <div class="conteudo">
+          <h3>Portas de Vidro</h3>
+           <div class="imgproj"> 
+            <img src="img/porta-espelho-branco.jpg" class="image">
+               <div class="imgproj-text"><span>. Branco</span></div>
+            </div>
+            <div class="imgproj">
+              <img src="img/porta-espelho-reflecta-bronze.jpg" class="image">
+              
+               <div class="imgproj-text"><span>. Reflecta Bronze</span></div>
+              
+            </div>
+            <div class="imgproj">
+            <img src="img/porta-espelho-reflecta-fume.jpg" class="image">
+               <div class="imgproj-text"><span>. Reflecta Fumê</span></div>
+            </div>
+            <div class="imgproj">
+            <img src="img/porta-espelho-abrir.jpg" class="image">
+               <div class="imgproj-text"><span>. Porta de Abrir com Espelho</span></div>
+            </div>
+            <div class="imgproj">
+            <img src="img/porta-espelho-correr.jpg" class="image">
+              
+               <div class="imgproj-text"><span>. Porta de Correr com Espelho</span>
+              </div>
+            </div>
+            <div class="imgproj">
+            <img src="img/porta-espelho-passagem.jpg" class="image">
+              
+               <div class="imgproj-text"><span>. Porta de Passagem com Espelho</span>
+              </div>
+            </div>
+            
+        </div>
+      </section>
+      
+      <section class="puxadores container-max">
+        <div class="conteudo">
+          <h3>Puxadores</h3>
+           <div class="imgproj"> 
+            <img src="img/1-linea.jpg" class="image">
+               <div class="imgproj-text"><span>. Linea</span></div>
+            </div>
+            <div class="imgproj">
+              <img src="img/2-aria.jpg" class="image">
+              
+               <div class="imgproj-text"><span>. Aria</span></div>
+              
+            </div>
+            <div class="imgproj">
+            <img src="img/3-umbri.jpg" class="image">
+               <div class="imgproj-text"><span>. Umbria</span></div>
+            </div>
+            <div class="imgproj">
+            <img src="img/4-riva.jpg" class="image">
+               <div class="imgproj-text"><span>. Riva</span></div>
+            </div>
+            <div class="imgproj">
+            <img src="img/5-plany.jpg" class="image">
+              
+               <div class="imgproj-text"><span>. Plany</span>
+              </div>
+            </div>
+            <div class="imgproj">
+            <img src="img/6-valley.jpg" class="image">
+              
+               <div class="imgproj-text"><span>. Valley</span>
+              </div>
+            </div>
+            <div class="imgproj">
+            <img src="img/10-fillo.jpg" class="image">
+              
+               <div class="imgproj-text"><span>. Fillo</span></div>
+              
+            </div>
+            <div class="imgproj">
+            <img src="img/8-mezzo.jpg" class="image">
+              
+               <div class="imgproj-text"><span>. Mezzo</span>
+              </div>
+            </div>
+            <div class="imgproj">
+            <img src="img/9-fip.jpg" class="image">
+             
+               <div class="imgproj-text"><span>. Flip</span></div>
+              
+            </div>
+          <div class="imgproj">
+            <img src="img/10-titanium.jpg" class="image">
+            <div class="imgproj-text"><span>. Titanium</span></div>
+          </div>
+          <div class="imgproj">
+            <img src="img/11-provance.jpg" class="image">
+            <div class="imgproj-text"><span>. Provance</span></div>
+          </div>
+          <div class="imgproj">
+            <img src="img/12-milano.jpg" class="image">
+            <div class="imgproj-text"><span>. Milano</span></div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="fornecedores">
+          <div class="conteudo">
+            <h3>Fornecedores</h3>
+            <h4>Mostramos aqui os nossos fornecedores e também o descritivo de qualidade de seus materiais.</h4>
+            <p>A MADEIROL no seu processo industrial tem a necessidade de oferecer as melhores matérias primas existentes para poder atender ao cliente com perfeição no prazo de 12 dias úteis, seu maior diferencial.<br>
+            Por isso fizemos a opção de ter preferencialmente aramados em AÇO INOX, MDF da DURATEX, dobradiças da HETTICH, e corrediças da BLUM.<br>
+            Temos de assegurar que a entrega e a montagem ocorram perfeitas, para que a próxima entrega também ocorra conforme programado. Fazendo com que a ENTREGA DE 12 DIAS ÚTEIS seja o menor prazo do BRASIL inteiro.</p>
+          </div>
+      </section>
+      <section class="fornecedores_logos container-max">
+        <div class="conteudo">
+          <img src="img/blum.jpg" id="myBtn">
+          <img src="img/masutti.jpg" id="myBtnaram" class="masutti">
+          <img src="img/hettich.jpg" id="myBtndobra">
+          <img src="img/duratex.jpg" id="myBtnmdf">
+          <img src="img/hafele.jpg" id="myBtnartic">
+          
+         <!-- Blum -->
+          <div id="myboxtec" class="boxtec">
+
+            <!-- boxtec content -->
+            <div class="boxtec-content">
+              <div class="boxtec-header">
+                <span class="fextc">&times;</span>
+                <h2>Corrediças</h2>
+              </div>
+              <div class="boxtec-body">
+                <center><img src="https://www.madeirol.com.br/wp-content/uploads/2014/03/materiais/corredicas/logo_blum.png"><br />
+              <br />&nbsp;</center>
+              <font face="verdana" size="6">TANDEMBOX</font><br />
+
+              <center><img src="https://www.madeirol.com.br/wp-content/uploads/2014/03/materiais/corredicas/tandem.png"></center><br />
+              <font face="verdana" size="4">Sistema de corrediças TANDEM – Deslizamento suave por toda a vida útil do móvel</font><br />
+              <br />
+              <font face="verdana">TANDEM – O sistema de corrediças ocultas para gavetas de madeira. Deslizamento suave e alto conforto de operação em toda a área da residência. O programa bem diversificado TANDEM tem a solução adequada disponível para qualquer peça de móvel. Mesmo em sistemas de extensões bem carregados deslizam suavemente e convencem com ótimos valores de abaixamento.<br /></font>
+              <br />
+              <font face="verdana">Para frentes sem puxadores existe o SERVO-DRIVE combinado com BLUMOTION, ou TIP-ON para TANDEM.</font><br />
+              <br />
+              <font face="verdana" size="4">Programa</font>
+
+              <font face="verdana"><li>Extensões parcial e total</li>
+              <li>Comprimentos nominais de 250 – 750 mm</li>
+              <li>Técnicas do acoplamento e encaixe</li>
+              <li>Capacidade de carga dinâmica de 30 e 50 kg</li>
+              <li>Estabilização lateral otimizada</li>
+              <li>ORGA-LINE</li></font>
+
+              <br />
+              <hr noshade="CDCDCD" size="1">
+              <br />&nbsp;
+              <br />&nbsp;
+              <font face="verdana" size="6">METABOX</font><br />
+
+              <center><img src="https://www.madeirol.com.br/wp-content/uploads/2014/03/materiais/corredicas/metabox.png"><br />
+              </center>
+              <font face="verdana" size="4">Um todo de alta qualidade com menos componentes</font><br />
+              <br />
+              <font face="verdana">Gavetas e extensões METABOX são constituídas por apenas alguns componentes. Realize as mais diversas aplicações na cozinha, no hall de entrada, no banheiro ou no escritório com o comprovado sistema box - e METABOX é ideal até mesmo para a decoração de lojas. Materiais estáveis e processamento cuidadoso garantem melhores valores de estabilidade – até uma carga dinâmica máxima de 30 kg.</font><br />
+              <br />
+              <font face="verdana" size="4">BLUMOTION – fechamento leve e silencioso para a METABOX</font><br />
+              <br />
+              <font face="verdana">A função BLUMOTION, milhões de vezes comprovada, oferece otimização também para a extensão parcial METABOX. Com isto, gaveta e extensão fecham sempre leve e silenciosamente. Independentemente do impulso aplicado ou do peso dos itens estocados. Especialmente prático e econômico: até uma largura de gabinete de 900mm basta somente uma unidade BLUMOTION.</font><br />
+              <br />
+              <font face="verdana" size="4">Programa</font>
+
+              <font face="verdana"><li>Leque de cores: branco-creme (RAL9001)</li>
+              <li>Alturas de montagem: N, M, K, B, C, D</li>
+              <li>Comprimentos nominais: 270 - 550 mm</li>
+              <li>Possibilidade de realizar paredes laterais da extensão frontal com reling simples ou duplo ou BOXSIDE</li>
+              <li>Extensões parcial e total disponíveis</li>
+              <li>BLUMOTION opcional compatível com extensões parciais METABOX</li></font>
+
+              <br />
+              <hr noshade="CDCDCD" size="1">
+              <br />&nbsp;
+              <br />&nbsp;
+              <font face="verdana" size="6">AVENTOS HK-KS</font><br />
+
+              <center><img src="https://www.madeirol.com.br/wp-content/uploads/2014/03/materiais/corredicas/lift_blum.jpg"><br />
+              </center>
+              <font face="verdana" size="4">Ferragem pequena para armários altos e superiores pequenos</font><br />
+              <br />
+              <font face="verdana">Por seu formato fino de construção, o AVENTOS HK-XS oferece um grande espaço para composições em armários altos e superiores pequenos. Com isto, gabinetes com pouca profundidade livre também podem ser confortavelmente equipados, como, por ex., aqueles sobre o exaustor na cozinha ou sobre a pia no banheiro. O acumulador de forças simétrico pode ser empregado tanto unilateral como bilateralmente. Com o emprego em ambos os lados, podem ser realizadas também frentes maiores e mais pesadas.</font><br />
+              <br />
+              <font face="verdana" size="4">Programa</font><br />
+              <br />
+              <font face="verdana">O AVENTOS HK-XS oferece grande espaço para composições em armários altos e superiores pequenos, como, por ex., aqueles sobre o exaustor na cozinha ou sobre a pia no banheiro.</font><br />
+
+              <font face="verdana"><li>Alturas de gabinete de 240 a 600 mm</li>
+              <li>Profundidade livre de no mín. 100 mm</li>
+              <li>Ideal para molduras de acabamento e testeiras</li>
+              <li>O acumulador de forças e as fixações frontais são utilizados simetricamente</li>
+              <li>Para frentes de madeira e com molduras de alumínio</li>
+              <li>Disponível também com TIP-ON</li></font>
+
+              </div>
+              <div class="boxtec-footer">
+                <h3>boxtec Footer</h3>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Masuti -->
+          <div id="myboxtecaram" class="boxtecaram">
+
+            <!-- boxtec content -->
+            <div class="boxtec-content">
+              <div class="boxtec-header">
+                <span class="fextc">&times;</span>
+                <h2>Aramado</h2>
+              </div>
+              <div class="boxtec-body">
+                <center><img src="https://www.madeirol.com.br/wp-content/uploads/2017/04/masutti.jpg"></center><br><br>
+                <img src="https://www.madeirol.com.br/wp-content/uploads/2014/03/materiais/aramados/escorredor.jpg"/>
+              <br><br>
+              <b>Escorredor de louças com bandeja inox</b><br>
+              Ref. 4585, Ref. 4586, Ref. 4587, Ref. 4544<b>Acabamento:</b><br>
+              Aço Inox<br>
+              <b>Medidas</b><br>
+              Ref. 4585<br>
+              570 x 100 x 260 mm<br>
+              Módulo 22<br>
+
+              Ref. 4544<br>
+              670 x 100 x 260 mm<br>
+              Módulo 23<br>
+
+              Ref. 4586<br>
+              770 x 100 x 260 mm<br>
+              Módulo 24<br>
+
+              Ref. 4587<br>
+              870 x 100 x 260 mm<br>
+              Módulo 25<br>
+
+              <b>Coleções</b><br>
+              Coleção Aço Inox<br><br><br>
+
+              <img src="https://www.madeirol.com.br/wp-content/uploads/2014/03/materiais/aramados/lixeira.jpg" /><br><br>
+              <div align="left"><b>Lixeira Dupla c/ Tampa Articulada c/ Corrediça Telescópica</b><br><br>
+              Ref. 4408<b>Acabamento:</b><br>
+              Aço Inox(aramado)<br>
+              Pintado(carrinho)<b>Medidas</b><br>
+              370 x 470 x 480 mm<br>
+              Módulo 4*corrediça telescópica 450mm<br>
+              capacidade de cada balde 18 litros<b>Coleções</b><br>
+              Coleção Aço Inox</div><br>
+              <img src="https://www.madeirol.com.br/wp-content/uploads/2014/03/materiais/aramados/porta_toalhas.jpg" /><br><br>
+              <div align="left"><b>Porta Toalhas Triplo com Corrediça Telescópica</b><br><br>
+              Ref. 4618Para módulo 150 mm<b>Acabamento:</b><br>
+              Aço Inox<b>Medidas</b><br>
+              125 x 35 x 420 mm<b>Coleções</b><br>
+              Coleção Aço Inox</div><br><br>
+              <img src="https://www.madeirol.com.br/wp-content/uploads/2014/03/materiais/aramados/porta_xicara.jpg" /><br><br>
+              <div align="left"><b>Porta Xícaras Superior</b><br>
+              Ref. 4570<b>Acabamento:</b><br>
+              Aço Inox<b>Medidas</b><br>
+              420 x 75 x 40 mm<b>Coleções</b><br>
+              Coleção Aço Inox</div><br>
+              </div>
+              <div class="boxtec-footer">
+                <h3>boxtec Footer</h3>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- hettich -->
+          <div id="myboxtecdobra" class="boxtecdobra">
+
+            <!-- boxtec content -->
+            <div class="boxtec-content">
+              <div class="boxtec-header">
+                <span class="fextc">&times;</span>
+                <h2>Dobradiças</h2>
+              </div>
+              <div class="boxtec-body">
+                <center>
+                  <img src="https://www.madeirol.com.br/wp-content/uploads/2017/04/hettich.gif">
+                  <br><br><iframe max-width="560" height="315" src="https://www.youtube.com/embed/56cqwMnKRz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+              </div>
+              <div class="boxtec-footer">
+                <h3>boxtec Footer</h3>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Duratex -->
+          <div id="myboxtecmdf" class="boxtecmdf">
+
+            <!-- boxtec content -->
+            <div class="boxtec-content">
+              <div class="boxtec-header">
+                <span class="fextc">&times;</span>
+                <h2>MDF</h2>
+              </div>
+              <div class="boxtec-body">
+                <center><img src="https://www.madeirol.com.br/wp-content/uploads/2013/materiais/mdf/logo.jpg" /></center><br><br>
+              <p style="text-align: justify;">     MDF é a sigla de Medium Density Fiberboard ou Painel de Fibras de Média Densidade, produzido pela Duratex com a denominação de MaDeFibra. Este painel é fabricado com fibras de madeiras selecionadas de pinus ou eucalipto de reflorestamento. Estas fibras, aglutinadas com resina sintética termo fixa, se consolidam sob a ação conjunta de calor e pressão, resultando em uma chapa maciça e muito resistente, com superfícies bastante lisas.</p><br>
+              <p style="text-align: justify;">     O MaDeFibra sem revestimento é um produto extraordinário por sua alta capacidade de usinagem, característica que distingue este produto da Duratex dos demais painéis de madeira. Pode ser rebaixado, torneado e dobrado, oferecendo várias possibilidades de acabamento. Destaca-se a facilidade de execução destes inúmeros acabamentos, ocasionada pelo fato de que as faces in natura do painel têm comportamento igual ou superior ao da madeira maciça, não necessitando de nenhuma preparação prévia. As superfícies ainda são excelentes substratos para qualquer tipo de revestimento e pintura. O MaDeFibra também é oferecido com uma ou duas faces revestidas em Baixa Pressão (BP) – o MaDeFibra BP.</p><br>
+              <p style="text-align: justify;">     Na versão com duas faces, torna-se um produto ainda mais vantajoso para os clientes, uma vez que pode dispensar qualquer acabamento adicional, eliminando etapas de produção e economizando tempo. Em todas as versões oferecidas pela Duratex, este painel é resultado de uma produção que parte de matériaprima própria de primeira linha, realizada em instalações que possuem o estado da arte em tecnologia. A preocupação da Duratex com cada etapa de fabricação de sua linha de produtos em MDF permite à empresa oferecer ao mercado um produto de procedência garantida e excelência assegurada.</p><br><br>
+
+              <center><img src="https://www.madeirol.com.br/wp-content/uploads/2013/materiais/mdf/01.jpg" /><br><br>
+              <img src="https://www.madeirol.com.br/wp-content/uploads/2013/materiais/mdf/02.jpg" /><br><br>
+              <img src="https://www.madeirol.com.br/wp-content/uploads/2013/materiais/mdf/03.jpg" /></center>
+              </div>
+              <div class="boxtec-footer">
+                <h3>boxtec Footer</h3>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Hafele -->
+          <div id="myboxtecartic" class="boxtecartic">
+
+            <!-- boxtec content -->
+            <div class="boxtec-content">
+              <div class="boxtec-header">
+                <span class="fextc">&times;</span>
+                <h2>Articuladores</h2>
+              </div>
+              <div class="boxtec-body">
+                <center><img src="https://www.madeirol.com.br/wp-content/uploads/2017/04/hafele.jpg"></center><br><br>
+              <h3>Articuladores Duo Standard/ Duo Forte </h3>
+              <p>Para portas de madeira ou com perfil de alumínio</p>
+              <br>
+              <center>
+              <iframe max-width="560" height="315" src="https://www.youtube.com/embed/z0jYAKjA-JA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+              <img src="https://www.madeirol.com.br/wp-content/uploads/2013/materiais/articulador/01.jpg" />
+              <br><br>
+              <img src="https://www.madeirol.com.br/wp-content/uploads/2013/materiais/articulador/002.jpg" /><br><br>
+
+              <img src="https://www.madeirol.com.br/wp-content/uploads/2013/materiais/articulador/08.jpg" /><br><br>
+
+              </center>
+
+              </div>
+              <div class="boxtec-footer">
+                <h3>boxtec Footer</h3>
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+      </section>
+      
+      
+	<!-- JavaScript slider -->
+		<script src="../simulador-cores-puxadores/js/script.js"></script>
+	<!-- JavaScript slider -->
+	</body>
+</html>

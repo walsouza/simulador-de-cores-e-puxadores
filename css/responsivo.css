@@ -1,0 +1,474 @@
+/*Estilo para laptop++*/
+@media only screen and (min-width: 900px) and (max-width: 1440px) {
+  
+  .texto h1, .simucoz h2 {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+  .texto h2 {
+    font-size: 28px;
+    padding-bottom: 15px;
+  }
+  .selectimg {
+    width: 27px;
+    top: 3px;
+  }
+  .selectbox {
+    width: 460px;
+    float: left;
+    margin-bottom: 0px;
+    margin-right: 60px;
+  }
+  .selectpux h3, .selectbox h3 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .fixinput {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  input[type="radio"] {
+    width: 14px;
+    height: 14px;
+  }
+  .selectpux label, .selectbox label {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  .personalimg {
+    width: 900px;
+    height: 530px;
+    position: relative;
+    clear: both;
+  }
+  #trocarimg, #trocapux, .personalcoz, #trocarimgbax, #trocavidro, #trocarimgcoz, #trocapuxcoz {
+    width: 900px;
+    position: absolute;
+  }
+  
+}
+/*Estilo para notebook*/
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  
+  .conteudo {
+    width: 1040px;
+  }
+  
+  .imgproj {
+    width: 323px;
+  }
+  .imgproj-cores {
+    width: 156px;
+    height: 156px; 
+  }
+  
+  .texto h1, .simucoz h2 {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+  .texto h2 {
+    font-size: 28px;
+    padding-bottom: 15px;
+  }
+  .selectimg {
+    width: 27px;
+    top: 3px;
+  }
+  .selectbox {
+    width: 460px;
+    float: left;
+    margin-bottom: 0px;
+    margin-right: 60px;
+  }
+  .selectpux h3, .selectbox h3 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .fixinput {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  input[type="radio"] {
+    width: 14px;
+    height: 14px;
+  }
+  .selectpux label, .selectbox label {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  .personalimg {
+    width: 900px;
+    height: 530px;
+    position: relative;
+    clear: both;
+  }
+  #trocarimg, #trocapux, .personalcoz, #trocarimgbax, #trocavidro, #trocarimgcoz, #trocapuxcoz {
+    width: 900px;
+    position: absolute;
+  }
+  
+}
+/*Estilo para laptop*/
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+  
+  .conteudo {
+    width: 1040px;
+  }
+  
+  .imgproj {
+    width: 323px;
+  }
+  .imgproj-cores {
+    width: 156px;
+    height: 156px; 
+  }
+  
+  .texto h1, .simucoz h2 {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+  .texto h2 {
+    font-size: 28px;
+    padding-bottom: 15px;
+  }
+  .selectimg {
+    width: 27px;
+    top: 3px;
+  }
+  .selectbox {
+    width: 460px;
+    float: left;
+    margin-bottom: 0px;
+    margin-right: 60px;
+  }
+  .selectpux h3, .selectbox h3 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .fixinput {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  input[type="radio"] {
+    width: 14px;
+    height: 14px;
+  }
+  .selectpux label, .selectbox label {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  .personalimg {
+    width: 900px;
+    height: 530px;
+    position: relative;
+    clear: both;
+  }
+  #trocarimg, #trocapux, .personalcoz, #trocarimgbax, #trocavidro, #trocarimgcoz, #trocapuxcoz {
+    width: 900px;
+    position: absolute;
+  }
+}
+
+/*Estilo para tablets-pro*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
+  p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  
+  .container {
+	width: 769px;
+  }
+  .conteudo {
+	width: 769px;
+  }
+  .fornecedores h3 {
+    font-size: 55px;
+    padding-bottom: 5px;
+  }
+  .fornecedores h4 {
+    font-size: 28px;
+    padding-bottom: 20px;
+  } 
+  
+  .fornecedores_logos img {
+    width: 130px;
+    margin: 10px auto auto 5px;
+  }
+  .masutti {
+    position: relative;
+    top: 3px;
+  }
+  .personalimg {
+    width: 769px;
+    height: 460px;
+  }
+  #trocarimg, #trocapux, .personalcoz, #trocarimgbax, #trocavidro, #trocarimgcoz, #trocapuxcoz {
+    width: 769px;
+  }
+  .selectpuxmob {
+    display: none;
+  }
+  .selectbox {
+    width: 355px;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 10px;
+  }
+  .fixinput {
+    width: 81px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .selectpux label, .selectbox label {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .selectpux {
+    width: 400px;
+    float: left;
+  }
+  .imgproj {
+    width: 236px;
+    height: 146px;
+  }
+  .imgproj-text {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+  }
+
+
+}
+
+/*Estilo para tablets*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  
+  .container {
+	width: 680px;
+  }
+  
+  .conteudo {
+	width: 680px;
+    margin: 0 auto;
+  }
+  
+  .imgproj {
+    width: 320px;
+  }
+  .imgproj-cores {
+    width: 156px;
+    height: 156px; 
+  }
+  .texto h1, .simucoz h2 {
+    font-size: 50px;
+  }
+  .texto h2 {
+    font-size: 26px;
+    padding-bottom: 30px;
+  }
+  .personalimg {
+    width: 680px;
+    height: 390px;
+  }
+  .selectbox {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    clear: both;
+  }
+  #trocarimg, #trocapux, .personalcoz, #trocarimgbax, #trocavidro, #trocarimgcoz, #trocapuxcoz {
+    width: 680px;
+  }
+  
+  .fornecedores_logos img {
+    width: 110px;
+    margin: 10px auto auto 5px;
+  }
+  .selectpux {
+    display: none;
+  }
+  .selectvid, .selectpuxcoz {
+    display: block;
+    width: 100%;
+  }
+  .selectpuxmob {
+    width: 100%;
+    display: block;
+  }
+
+}
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 767px) {
+  
+  p {
+	font-size: 14px;
+  }
+  .introducao {
+    width: 100%;
+    height: 145px;
+  }
+  
+  .conteudo {
+	width: 90%;
+    margin: 0 auto;
+  }
+  .conteudomob {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .texto {
+    padding-bottom: 30px;
+  }
+  .fornecedores_logos {
+    padding-bottom: 10px;
+  }
+  .fornecedores_logos img {
+    width: 50px;
+    margin: 5px auto auto 5px;
+  }
+  .puxadores h3 {
+    font-size: 35px;
+    padding-bottom: 10px;
+  }
+  .puxadores ul li {
+    font-size: 14px;
+  }
+  .ftpuxadores img {
+    width: 100px;
+    height: 101px;
+  }
+  .fornecedores h3 {
+    font-size: 35px;
+    padding-bottom: 30px;
+  }
+  .fornecedores h4 {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  .imgproj {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .imgproj-cores {
+    width: 300px;
+    height: 300px;
+    float: none;
+    margin: 0px auto 80px auto;
+  }
+  .imgproj-text {
+    margin-top: 5px;
+  }
+  .imgproj-text:after {
+    content: "";
+    display: block;
+    width: 90%;;
+    height: 1px;
+    background: #fff;
+    margin: 15px auto;
+  }
+  .masutti {
+    position: relative;
+    top: 0;
+  }
+  .personalimg {
+    width: 100%;
+    height: 211px;
+    margin-bottom: 30px;
+  }
+  #trocarimg, #trocapux, .personalcoz, #trocarimgbax, #trocavidro, #trocarimgcoz, #trocapuxcoz {
+    width: 100%;
+  }
+  .selectbox, .selectpux {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .selectpux {
+    display: none;
+  }
+  .selectvid, .selectpuxcoz {
+    display: block;
+  }
+  .selectpuxmob {
+    display: block;
+  }
+  .selectpux h3, .selectbox h3 {
+    font-size: 23px;
+    padding-bottom: 20px;
+  }
+  .selectpux label, .selectbox label {
+    font-size: 13px;
+    margin-left: 2px;
+  }
+  .fixinput {
+    width: 80px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 15px;
+  }
+  input[type="radio"] {
+    width: 13px;
+    height: 13px;
+  }
+  .selectimg {
+    width: 22px;
+    margin-right: 3px;
+    top: 3px;
+  }
+  .contact-btn {
+    height: 22px;
+    top: 88%;
+    left: 1%;
+  }
+  .btnorcamento {
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+  }
+  .texto h1, .simucoz h2 {
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+  .texto h2 {
+    font-size: 16px;
+    padding-bottom: 0;
+  }
+
+}
+/*Estilo para smartphone*/
+@media only screen and (max-width: 812px) and (orientation: landscape) {
+  .conteudo {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .texto h1, .simucoz h2 {
+    font-size: 32px;
+  }
+  .personalimg {
+    width: 100%;
+    height: 411px;
+    margin-bottom: 19px;
+  }
+  #trocarimg, #trocapux, .personalcoz, #trocarimgbax, #trocavidro, #trocarimgcoz, #trocapuxcoz {
+    width: 100%;
+  }
+  .selectbox {
+    margin-bottom: 0;
+  }
+  .puxadores {
+    text-align: center;
+    padding: 30px 0;
+  }
+  .puxadores h3 {
+    font-size: 45px;
+    padding-bottom: 10px;
+  }
+  .image {
+    display: inline-block;
+    width: 329px;
+    height: 232px;
+  }
+}
